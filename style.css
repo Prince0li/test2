@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+.picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.picture:hover{
+  box-shadow: 0px 5px 5px 5px #666666;
+  transition: all 0.5s ease;
+}
+.text {
+  color: #ccb17e;
+  height: 16px;
+  width: 49px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 4px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+.text-date {
+  height: 15px;
+  width: 165px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 18px;
+  color: #666666;
+  margin-top: 0px;
+}
+.text-block {
+  height: 55px;
+  width: 285px;
+  margin-left: auto;
+  margin-right: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  font-family: "PT Serif";
+  color: #171717;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.color {
+  color: #a09b9b;
+}
+.text-seventh-block {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #666666;
+  width: 285px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+@media (min-width: 1200px) {
+  .first-block {
+    float: left;
+    width: calc(50% - 10px);
+    
+  }
+  .second-block {
+    float: left;
+    width: calc(50% - 10px);
+  }
+  .first-float:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  .second-block:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  .third-block {
+    float: left;
+    width: calc(50% - 10px);
+  }
+  .fourth-block {
+    float: left;
+    width: calc(50% - 10px);
+  }
+  .fifth-block {
+    float: left;
+    width: calc(50% - 10px);
+  }
+  .sixth-block {
+    float: left;
+    width: calc(50% - 10px);
+  }
+  .eighth-block {
+    float: left;
+    width: calc(50% - 10px);
+  }
+  .ninth-block {
+    float: left;
+    width: calc(50% - 10px);
+  }
+  .tenth-block {
+    float: left;
+    width: calc(50% - 10px);
+  }
+  .eleventh-block {
+    float: left;
+    width: calc(50% - 10px);
+  }
+}
